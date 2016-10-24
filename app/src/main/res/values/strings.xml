@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Actividades 17</string>
+    <string name="actividad2">Aceptar Condiciones</string>
+    <string name="textViewNombre">Nombre:</string>
+    <string name="textViewApellidos">Apellidos</string>
+    <string name="buttonVerificar">Verificar</string>
+    <string name="textViewAceptarCondiciones">Aceptar condiciones: </string>
+    <string name="buttonVolver">Volver</string>
+    <string name="Aceptar">Aceptar</string>
+    <string name="Rechazar">Rechazar</string>
+    <string name="actividad01">Actividad 01</string>
+    <string name="actividad02">Actividad 02</string>
+    <string name="actividad03">Actividad 03</string>
+    <string name="actividad04">Actividad 04</string>
+    <string name="salir">Salir</string>
+    <string name="textViewUsuario">Usuario</string>
+    <string name="textViewContrasena">Contraseña</string>
+    <string name="textViewConectar">Conectar</string>
+    <string name="iniciarSesion">Iniciar Sesion</string>
+    <string name="olvidarContrasena">¿Olvidaste tu contraseña?</string>
+    <string name="suma">SUMA</string>
+    <string name="opeSuma">+</string>
+    <string name="opeIgual">=</string>
+    <string name="comprobarResultado">Comprobar resultado</string>
+    <string name="pregunCorrectas">PREGUNTAS CORRECTAS</string>
+</resources>

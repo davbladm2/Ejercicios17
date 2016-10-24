@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm2.ejercicios17.MainActivity">
+
+    <Button
+        android:id="@+id/buttonActividad01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actividad01"
+        android:onClick="navegacion"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonActividad02"
+        android:layout_below="@+id/buttonActividad01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actividad02"
+        android:onClick="navegacion"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonActividad03"
+        android:layout_below="@+id/buttonActividad02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actividad03"
+        android:onClick="navegacion"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonActividad04"
+        android:layout_below="@+id/buttonActividad03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actividad04"
+        android:onClick="navegacion"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/buttonSalir"
+        android:layout_below="@+id/buttonActividad04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salir"
+        android:onClick="salir"
+        android:textSize="20dp"/>
+</RelativeLayout>

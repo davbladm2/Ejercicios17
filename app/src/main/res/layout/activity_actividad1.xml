@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm2.ejercicios17.Actividad1">
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewNombre"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_below="@id/textViewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewApellidos"
+        android:layout_below="@id/editTextNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewApellidos"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextApellidos"
+        android:layout_below="@id/textViewApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonVerificar"
+        android:layout_below="@+id/editTextApellidos"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonVerificar"
+        android:onClick="verificar"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewAceptarCondiciones"
+        android:layout_below="@id/buttonVerificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="@string/textViewAceptarCondiciones"/>
+
+    <Button
+        android:id="@+id/buttonVolver"
+        android:layout_below="@id/textViewAceptarCondiciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/botonre"
+        android:drawablePadding="20px"
+        android:layout_marginTop="10dp"
+        android:text="@string/buttonVolver"
+        android:onClick="volver"
+        android:textSize="17dp"/>
+
+</RelativeLayout>
