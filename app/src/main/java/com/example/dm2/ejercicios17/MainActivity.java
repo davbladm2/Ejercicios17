@@ -23,6 +23,16 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, Actividad2.class);
             startActivity(intent);
         }
+
+        if (v.getId() == R.id.buttonActividad03){
+            Intent intent = new Intent(MainActivity.this, Actividad3.class);
+            startActivity(intent);
+        }
+
+        if (v.getId() == R.id.buttonActividad04){
+            Intent intent = new Intent(MainActivity.this, Actividad4.class);
+            startActivity(intent);
+        }
     }
 
     public void salir(View v){

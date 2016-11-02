@@ -2,7 +2,7 @@
     <string name="app_name">Actividades 17</string>
     <string name="actividad2">Aceptar Condiciones</string>
     <string name="textViewNombre">Nombre:</string>
-    <string name="textViewApellidos">Apellidos</string>
+    <string name="textViewApellidos">Apellidos:</string>
     <string name="buttonVerificar">Verificar</string>
     <string name="textViewAceptarCondiciones">Aceptar condiciones: </string>
     <string name="buttonVolver">Volver</string>
@@ -22,5 +22,17 @@
     <string name="opeSuma">+</string>
     <string name="opeIgual">=</string>
     <string name="comprobarResultado">Comprobar resultado</string>
-    <string name="pregunCorrectas">PREGUNTAS CORRECTAS</string>
+    <string name="pregunCorrectas">PREGUNTAS CORRECTAS:</string>
+    <string name="respuCorrectas">0</string>
+    <string name="pregunInorrectas">INCORRECTAS:</string>
+    <string name="introduceDatos">Introduce tus datos:</string>
+    <string name="textSexo">Sexo:</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="textAficiones">Aficiones</string>
+    <string name="musica">Música</string>
+    <string name="lectura">Lectura</string>
+    <string name="deportes">Deportes</string>
+    <string name="viajar">Viajar</string>
+    <string name="enviar">Enviar</string>
 </resources>

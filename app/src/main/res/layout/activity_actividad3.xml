@@ -26,10 +26,14 @@
         android:layout_below="@id/textViewSuma"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50px">
+
     <EditText
         android:id="@+id/editTextNum1"
         android:layout_width="150px"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:inputType="number"
+        android:enabled="false"/>
 
     <TextView
         android:id="@+id/textViewOpeSuma"
@@ -43,7 +47,10 @@
         android:id="@+id/editTextNum2"
         android:layout_toEndOf="@id/textViewOpeSuma"
         android:layout_width="150px"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:inputType="number"
+        android:enabled="false"/>
 
     <TextView
         android:id="@+id/textViewOpeIgual"
@@ -57,7 +64,9 @@
         android:id="@+id/editTextResultado"
         android:layout_toEndOf="@id/textViewOpeIgual"
         android:layout_width="150px"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:inputType="number"/>
     </LinearLayout>
 
     <Button
@@ -68,8 +77,8 @@
         android:layout_below="@+id/layout"
         android:text="@string/comprobarResultado"
         android:layout_marginTop="50px"
-        android:onClick="resultado"
-        android:textSize="20dp"/>
+        android:onClick="calcular"
+        android:textSize="16dp"/>
 
     <TextView
         android:id="@+id/textPregunCorrectas"
@@ -78,5 +87,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/pregunCorrectas"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/textRespuCorrectas"
+        android:layout_below="@+id/buttonComprobarResultado"
+        android:layout_toEndOf="@id/textPregunCorrectas"
+        android:layout_marginTop="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/respuCorrectas"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/textPregunIncorrectas"
+        android:layout_below="@+id/buttonComprobarResultado"
+        android:layout_toEndOf="@id/textRespuCorrectas"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunInorrectas"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/textRespuIncorrecta"
+        android:layout_below="@+id/buttonComprobarResultado"
+        android:layout_toEndOf="@id/textPregunIncorrectas"
+        android:layout_marginTop="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/respuCorrectas"
         android:textSize="16dp"/>
 </RelativeLayout>
